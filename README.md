@@ -66,8 +66,8 @@ Run in separate terminal:
 
 ## Contributions
 
+- [Sash](https://github.com/sash2501)
 - [Pavan](https://github.com/pavanbsp)
-- [Akshitha](https://github.com/ahtihska)
 - [Anirudh](https://github.com/chamala-anirudh)
 
 ## License
