@@ -1,9 +1,5 @@
 ![image](https://user-images.githubusercontent.com/47408756/133932840-a3120dd1-12f4-45d1-8a9a-882499e6fcdb.png)
 
-# ALERT
-
-Our Team Project for HackMIT
-
 ## Table of contents
 * [About The Project](#about-the-project)
 * [Features](#features)
