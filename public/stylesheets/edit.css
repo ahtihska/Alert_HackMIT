@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+
+body {
+  background: url(https://cdn.discordapp.com/attachments/834458081546076170/889080330512916510/MicrosoftTeams-image.png);
+  background-size: cover;
+  color: aliceblue;
+  height: 100vh;
+}
+
+.container {
+  border-radius: 5rem;
+}
+
+.card-title {
+  text-align: center;
+  padding: 1rem;
+}
+
+.btn.btn-success.btn-block {
+  border-radius: 5rem;
+  border: none;
+  box-shadow: 0 0.5rem 0.7rem rgba(255, 137, 6, 0.4);
+  transition: all 0.3s;
+  background-color: rgb(255, 137, 6);
+}
+
+.form-control {
+  border: none;
+  color: aliceblue;
+  background-color: rgba(36, 36, 36, 0.4);
+  padding: 0.1rem 4rem;
+  border-radius: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  background-color: rgba(36, 36, 36, 0.6);
+  border: none;
+  height: 37rem;
+  margin-left: 0.7rem;
+  border-radius: 2rem;
+  animation: moveInUp 1s ease-out;
+  box-shadow: 0.5 1.5rem 2rem rgba(255, 137, 6, 0.9);
+}
+
+.input-group-text {
+  border: none;
+  color: aliceblue;
+  background-color: rgba(36, 36, 36, 0.4);
+  border-radius: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-file-label {
+  border: none;
+  color: aliceblue;
+  background-color: rgba(36, 36, 36, 0.4);
+  border-radius: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+@keyframes moveInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(7rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+.btn.btn-success.btn-block:hover {
+  box-shadow: 0rem 0.8rem 1.3rem rgba(255, 0, 0, 0.4);
+  transform: translateY(-0.2rem);
+  background-color: rgb(255, 0, 0);
+}
+
+.btn.btn-success.btn-block:active {
+  box-shadow: 0rem 0.3rem 0.7rem rgba(255, 0, 0, 0.4);
+  transform: translateY(0);
+}
+
+input #title.form-control {
+  width: 100%;
+}
